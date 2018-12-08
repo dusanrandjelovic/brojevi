@@ -18,5 +18,5 @@ function odredi(){
   for (i=novniz.length-1;i>=0;i--){
     document.getElementById("br2").value+=novniz[i];
   }
-brojac=0;
+  
 }
