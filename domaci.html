@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Galerija</title>
+    <style>
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        background-color: #DCDCDC;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 1px solid #000000;
+      }
+      body h1 {
+        margin-left: 1.7%;
+      }
+     span, .boja {
+      color: #FF0000;
+     }
+     main {
+       display: flex;
+       margin: 1%;
+     }
+    main p, body p {
+      text-align: center;
+     }
+    main div {
+     border: 1px solid #000000;
+    margin: 0.7%;
+    }
+    main div:hover {
+      transform: scale(1.1);
+    }
+    @media (max-width: 850px){
+     main {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+     }
+     main div {
+       width: 45%;
+       margin: 1.8%;
+     }
+    }
+    @media (max-width: 500px){
+     main {
+    flex-direction: column;
+    align-items: center;
+    }
+    main div {
+      width: 90%;
+       margin: 4%;
+    }
+   }
+      </style>
+  </head>
+  <body>
+    <h1><span>G</span>alerija slika</h1>
+
+<main>
+<div>
+<img src="https://durasite.000webhostapp.com/dura.png" alt="Durasite">
+<p>Lorem ipsum dolor sit</p>
+  </div>
+  <div>
+    <img src="https://durasite.000webhostapp.com/dura.png" alt="Durasite">
+    <p>Lorem ipsum dolor sit</p>
+    </div>
+    <div>
+      <img src="https://durasite.000webhostapp.com/dura.png" alt="Durasite">
+      <p>Lorem ipsum dolor sit</p>
+      </div>
+      <div>
+        <img src="https://durasite.000webhostapp.com/dura.png" alt="Durasite">
+        <p>Lorem ipsum dolor sit</p>
+        </div>
+  </main>
+
+    <p class="boja">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua.</p>
+    <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+  </body>
+</html>
